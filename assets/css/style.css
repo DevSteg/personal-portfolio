@@ -20,10 +20,12 @@ body {
     font-family: "Oleo script swash caps", cursive;
     font-size: 3.5rem;
     margin-top: 20px;
+    text-align: center;
 }
 
 .sub-title {
-    font-size: 1.5rem;
+    font-size: .9rem;
+    text-align: center;
 }
 
 hr {
@@ -31,21 +33,21 @@ hr {
     margin: 5px auto;
 }
 
+.social-links {
+    color: #808080;
+    padding: 0 5px;
+    font-size: 2rem;
+}
+
+.social-links:hover {
+    color: #4f4f4f;
+}
+
 /* ----------------------------------------------Navbar & Footer*/
 
 .navbar-collapse {
     flex-basis: 5%;
     padding-left: 2%;
-}
-
-.nav li a {
-    color: gray;
-    padding: 0 5px;
-    font-size: 2rem;
-}
-
-.social-links {
-   padding-right: 2%; 
 }
 
 .js-logo-sm {
@@ -138,4 +140,46 @@ hr {
 .form-sub {
     margin-top: 20px;
     font-size: 1.5rem;
+}
+
+/* ----------------------------------------------about.html */
+
+.about-section {
+    margin: 50px 0;
+}
+
+.js-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 30%;
+}
+
+.pi-section{
+    text-align: left;
+    background-color: #fedc82;
+    padding: 20px 10px;
+    width: 100%;
+    border-radius: 15%;
+    margin: 0 20px;
+}
+
+.pi-section p span {
+    font-size: 1.25rem;
+    padding-left: 8%;
+}
+
+.section-title {
+    font-family: "Oleo script swash caps", cursive;
+    text-align: center;
+}
+
+.ex-section {
+    padding: 20px 10px;
+    background-color: #f16970;
+    border-radius: 20%;
+}
+
+.work-ed-divs .col-6 h4 {
+    display: flex;
+    justify-content: space-evenly;
 }
