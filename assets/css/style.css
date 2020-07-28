@@ -148,6 +148,11 @@ hr {
     margin: 50px 0;
 }
 
+.about-block {
+    margin-top: 20px;
+    text-align: center;
+}
+
 .js-image {
     width: 100%;
     height: 100%;
@@ -155,31 +160,55 @@ hr {
 }
 
 .pi-section{
-    text-align: left;
+    text-align: center;
     background-color: #fedc82;
-    padding: 20px 10px;
+    padding: 20px;
     width: 100%;
-    border-radius: 15%;
-    margin: 0 20px;
+    border-radius: 5%;
+    height: 100%
 }
 
-.pi-section p span {
-    font-size: 1.25rem;
-    padding-left: 8%;
+.pi-info {
+    display: inline-block;
+    text-align: left; 
+    margin: 20px auto;
+}
+
+.pi-info i {
+    font-size: 2.5rem;
 }
 
 .section-title {
     font-family: "Oleo script swash caps", cursive;
-    text-align: center;
+    font-size: 2rem;
 }
 
 .ex-section {
     padding: 20px 10px;
     background-color: #f16970;
-    border-radius: 20%;
+    border-radius: 5%;
+    height: 100%;
 }
 
-.work-ed-divs .col-6 h4 {
-    display: flex;
-    justify-content: space-evenly;
+.skills-section {
+    background-color: #808080;
+    border-radius: 5%;
+    padding: 20px 0;
+}
+
+.progress-block {
+    margin: 20px auto;
+}
+
+.progress {
+    height: 20px;
+    margin-top: 2.5px;
+    font-family: "Nunito", sans-serif;
+}
+
+.progress-bar {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
 }
