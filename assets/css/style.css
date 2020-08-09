@@ -9,6 +9,7 @@
 
 body {
     background-color: #fffff2;
+    height: 100vh;
 }
 
 .nun-font {
@@ -122,7 +123,7 @@ hr {
 }
 
 .contact-form {
-    margin: 32px auto;
+    margin: 10px auto;
 }
 
 .contact-form form input, textarea {
@@ -138,7 +139,7 @@ hr {
 }
 
 .form-sub {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 1.5rem;
 }
 
@@ -170,12 +171,17 @@ hr {
 
 .pi-info {
     display: inline-block;
-    text-align: left; 
-    margin: 20px auto;
+    text-align: left;
+    margin: 40px 0;
 }
 
 .pi-info i {
     font-size: 2.5rem;
+    margin-right: 10px;
+}
+
+.pi-info p span {
+    font-size: 1.25rem;
 }
 
 .section-title {
@@ -211,4 +217,24 @@ hr {
     text-transform: uppercase;
     font-weight: 600;
     color: #000;
+}
+
+/* ----------------------------------------------projects.html */
+
+.mock-img {
+    width: 100%;
+    margin: 25px auto;
+}
+
+.projects-section div h4 {
+    text-align: center;
+    color: #808080;
+}
+
+.projects-section div h4:hover {
+    color: #4f4f4f;
+}
+
+.projects-section div a {
+    text-decoration: none;
 }
