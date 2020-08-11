@@ -10,6 +10,7 @@
 body {
     background-color: #fffff2;
     height: 100vh;
+    font-family: "Nunito", sans-serif;
 }
 
 .nun-font {
@@ -44,6 +45,10 @@ hr {
     color: #4f4f4f;
 }
 
+.section-title {
+    font-family: "Oleo script swash caps", cursive;
+    font-size: 2rem;
+}
 /* ----------------------------------------------Navbar & Footer*/
 
 .navbar-collapse {
@@ -123,7 +128,7 @@ hr {
 }
 
 .contact-form {
-    margin: 10px auto;
+    margin: auto;
 }
 
 .contact-form form input, textarea {
@@ -139,67 +144,86 @@ hr {
 }
 
 .form-sub {
-    margin-top: 15px;
+    margin: 5% 0 20%;
     font-size: 1.5rem;
 }
 
 /* ----------------------------------------------about.html */
 
-.about-section {
-    margin: 50px 0;
-}
-
-.about-block {
-    margin-top: 20px;
-    text-align: center;
-}
-
 .js-image {
     width: 100%;
-    height: 100%;
     border-radius: 30%;
 }
 
-.pi-section{
+.pi-img-block {
+    margin: 3% auto;
     text-align: center;
-    background-color: #fedc82;
-    padding: 20px;
-    width: 100%;
-    border-radius: 5%;
-    height: 100%
+}
+
+.pi-section {
+    margin-top: 20px;
+    background-color: #343a40;
+    color: #fffff2;
+    border-radius: 50px;
+    padding: 25px;
 }
 
 .pi-info {
-    display: inline-block;
-    text-align: left;
-    margin: 40px 0;
+    margin: 3% auto;
 }
 
-.pi-info i {
+.pi-info table tr th i {
     font-size: 2.5rem;
     margin-right: 10px;
+    color: #96e6db;
 }
 
-.pi-info p span {
+table {
+    margin: 6% auto 0;
+    height: 50%;
+}
+
+table tr td {
     font-size: 1.25rem;
+    font-weight: 400;
 }
 
-.section-title {
-    font-family: "Oleo script swash caps", cursive;
-    font-size: 2rem;
+.section-break {
+    border-top: 2px #96e6db dashed;
+    width: 5%;
+    margin: 5% auto;
 }
 
-.ex-section {
-    padding: 20px 10px;
-    background-color: #f16970;
-    border-radius: 5%;
+.white-hr {
+    border-color: rgba(255, 255, 242, 0.685);
+}
+
+.ex-ed-block {
+    text-align: center;
+    min-height: 500px;
+    background-color: #343a40;
+    color: #fffff2;
+    padding-bottom: 50px;
+}
+
+.ex-section, .ed-section {
     height: 100%;
+    margin: 10% auto 0;
 }
 
-.skills-section {
-    background-color: #808080;
-    border-radius: 5%;
-    padding: 20px 0;
+.ex-section table tbody td, .ed-section table tbody td {
+    padding-right: 20px; 
+}
+
+.ex-ed-date {
+    padding-right: 20px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.skills-block {
+    text-align: center;
+    margin-bottom: 10%;
 }
 
 .progress-block {
@@ -209,17 +233,20 @@ hr {
 .progress {
     height: 20px;
     margin-top: 2.5px;
-    font-family: "Nunito", sans-serif;
 }
 
 .progress-bar {
     text-align: left;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     color: #000;
 }
 
 /* ----------------------------------------------projects.html */
+
+.projects-section {
+    margin-top: 8%;
+}
 
 .mock-img {
     width: 100%;
@@ -237,4 +264,39 @@ hr {
 
 .projects-section div a {
     text-decoration: none;
+}
+
+/* ----------------------------------------------Media Queries*/
+
+@media screen and (max-width: 1024px) {
+    .projects-section {
+        margin: 5% auto 10%;
+    }
+
+    .ex-ed-block {
+        padding-bottom: 25%;
+    }
+
+    .ex-section {
+        margin-top: 15%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .projects-section {
+        margin: 5% auto 25%;
+    }
+
+    .form-sub {
+        margin-bottom: 25%;
+    }
+
+    .landing-btn {
+        margin: 5% 3%;
+    }
+
+    .ex-section table tbody td, .ed-section table tbody td {
+        padding-top: 5%;
+    }
 }
