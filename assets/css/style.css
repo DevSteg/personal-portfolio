@@ -117,7 +117,8 @@ hr {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    height: 100vh;
+    padding-top: 100px;
 }
 
 .js-logo-lg {
@@ -140,11 +141,13 @@ hr {
 
 .cta-btns {
     text-align: center;
-    margin: 70px 0;
+    margin-bottom: 70px;
 }
 
 .landing-btn {
     margin: 0 20px;
+    width: 170px;
+    height: 50px;
 }
 
 /* ----------------------------------------------Contact.html */
@@ -311,9 +314,24 @@ table tr td {
 /* ----------------------------------------------Media Queries*/
 
 @media screen and (max-width: 1024px) {
+    
+    /* ------------------index.html */
+
+    .intro-section {
+        padding-top: 20%;
+    }
+
+    .cta-btns {
+        padding-bottom: 10%;
+    }
+
+    /* ------------------projects.html */
+
     .projects-section {
         margin: 5% auto 10%;
     }
+
+    /* ------------------about.html */
 
     .about-1024, .about-1024 .row, .pi-1024 {
         padding-left: 0;
@@ -346,17 +364,43 @@ table tr td {
 }
 
 @media screen and (max-width: 576px) {
+
+    /* ------------------index.html */
+
+    .intro-576 {
+        height: 100%;
+    }
+
+    .intro-section {
+        height: 600px;
+    }
+
+    .cta-btns {
+        margin: 0 auto 10px;
+    }
+
+    .landing-btn {
+        margin: 5% 3%;
+        width: 145px;
+    }
+
+    #contact-btn {
+        width: 160px;
+    }
+
+    /* ------------------projects.html */
+
     .projects-section {
         margin: 5% auto 25%;
     }
+
+    /* ------------------contact.html */
 
     .form-sub {
         margin-bottom: 25%;
     }
 
-    .landing-btn {
-        margin: 5% 3%;
-    }
+    /* ------------------about.html */
 
     .ex-section table tbody td, .ed-section table tbody td {
         padding-top: 5%;
