@@ -22,6 +22,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
     * #### Potential Client 
         1. As a Potential Client, I want to be able to view the projects the developer has completed in the past.
         2. As a Potential Client, I want to be able to contact the developer with my project idea.
+        3. As a Potential Client, I want to be drawn in to the website, understand the layout and overall be sure that the developer can complete my project to a high standard.  
 
 - ### Design
 
@@ -37,8 +38,11 @@ This is my personal portfolio project. It is designed to be responsive and acces
         An Image of the developer is also used on About Me to allow the user to put a face to the name.
 
 - ### Wireframes
-    
 
+    * [Wireframes for the project are here](assets/wireframes/personal_portfolio_wireframes.pdf)
+    
+    * [Mobile Wireframes for the project are here](assets/wireframes/personal_portfolio_wireframes_mobile.pdf)
+    
 ## Features
 ---
 - Responsive on all device sizes.
