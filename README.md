@@ -20,9 +20,8 @@ This is my personal portfolio project. It is designed to be responsive and acces
         4. As a Potential Employer, I want to be able to view the work history of the developer.
 
     * #### Potential Client 
-        1. As a Potential Client, I want to 
-        2. As a Potential Client, I want to be able to view the projects the developer has completed in the past.
-        3. As a Potential Client, I want to be able to contact the developer with my project idea.
+        1. As a Potential Client, I want to be able to view the projects the developer has completed in the past.
+        2. As a Potential Client, I want to be able to contact the developer with my project idea.
 
 - ### Design
 
@@ -38,7 +37,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
         An Image of the developer is also used on About Me to allow the user to put a face to the name.
 
 - ### Wireframes
-
+    
 
 ## Features
 ---
@@ -99,3 +98,6 @@ This is my personal portfolio project. It is designed to be responsive and acces
 
 ## Credits
 ---
+
+- [W3Schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
