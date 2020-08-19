@@ -9,14 +9,19 @@
 
 body {
     background-color: #fffff2;
-    height: 100vh;
+    min-height: 100vh;
     font-family: "Nunito", sans-serif;
+    position: relative;
+}
+
+main {
+    padding-bottom: 60px;
 }
 
 .page-title {
     font-family: "Oleo script swash caps", cursive;
     font-size: 3.5rem;
-    margin-top: 20px;
+    margin-top: 90px;
     text-align: center;
     color: #343a40;
 }
@@ -84,6 +89,13 @@ hr {
 
 .social-links-foot {
     margin: 0 auto;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
 }
 
 /* ----------------------------------------------index.html */
@@ -159,7 +171,6 @@ hr {
 
 .contact-section {
     text-align: center;
-    margin-top: 70px;
 }
 
 .contact-form {
@@ -188,7 +199,6 @@ hr {
 /* ----------------------------------------------about.html */
 .about-section {
     width: 100%;
-    margin-top: 70px;
 }
 
 .js-image {
@@ -332,12 +342,6 @@ table tr td {
         padding-bottom: 10%;
     }
 
-    /* ------------------projects.html */
-
-    .projects-section {
-        margin: 5% auto 10%;
-    }
-
     /* ------------------about.html */
 
     .about-1024, .about-1024 .row, .pi-1024 {
@@ -393,18 +397,6 @@ table tr td {
 
     #contact-btn {
         width: 160px;
-    }
-
-    /* ------------------projects.html */
-
-    .projects-section {
-        margin: 5% auto 25%;
-    }
-
-    /* ------------------contact.html */
-
-    .form-sub {
-        margin-bottom: 25%;
     }
 
     /* ------------------about.html */
