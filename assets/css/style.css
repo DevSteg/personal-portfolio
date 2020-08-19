@@ -61,6 +61,7 @@ hr {
     background-color: #42a3af;
     border-color: #42a3af;
 }
+
 /* ----------------------------------------------Navbar & Footer*/
 
 .navbar-collapse {
@@ -79,6 +80,10 @@ hr {
 
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #42a3af;
+}
+
+.social-links-foot {
+    margin: 0 auto;
 }
 
 /* ----------------------------------------------index.html */
@@ -154,6 +159,7 @@ hr {
 
 .contact-section {
     text-align: center;
+    margin-top: 70px;
 }
 
 .contact-form {
@@ -175,7 +181,7 @@ hr {
 }
 
 .form-sub {
-    margin: 5% 0 20%;
+    margin: 5% 0;
     font-size: 1.5rem;
 }
 

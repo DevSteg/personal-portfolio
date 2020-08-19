@@ -77,6 +77,11 @@ This is my personal portfolio project. It is designed to be responsive and acces
 
 ## Testing
 ---
+-   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project.
+
+    * [W3C CSS Validator](http://jigsaw.w3.org/css-validator/validator$link)
+
+    
 
 - ### Testing User Stories from User Experience (UX) Section
 
@@ -91,6 +96,8 @@ This is my personal portfolio project. It is designed to be responsive and acces
         3.
     
 - ### Further Testing
+
+    * Tested all links work as expected and all links to external sources open in a new window.
 
     * Form testing, test submitted the form to test that all the fields require the correct information. 
     By doing this I realised that the *value* attribute in the input tag should of been *placeholder*.
