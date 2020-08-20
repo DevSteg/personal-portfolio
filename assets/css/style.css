@@ -307,7 +307,7 @@ table tr td {
 /* ----------------------------------------------projects.html */
 
 .projects-section {
-    margin-top: 8%;
+    margin-top: 4%;
 }
 
 .mock-img {
@@ -326,6 +326,28 @@ table tr td {
 
 .projects-section div a {
     text-decoration: none;
+}
+
+.project-block {
+    background-color: #343a40;
+    border: #fffff2 solid 7px;
+    border-radius: 30px;
+}
+
+.project-info {
+    color: #fffff2;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 0.10rem;
+}
+
+.project-info h5 {
+    font-weight: 700;
+    color: #45bec4;
+}
+
+.project-info ul li {
+    list-style: none;
 }
 
 /* ----------------------------------------------Media Queries*/
