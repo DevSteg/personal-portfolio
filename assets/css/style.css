@@ -21,7 +21,7 @@ main {
 .page-title {
     font-family: "Oleo script swash caps", cursive;
     font-size: 3.5rem;
-    margin-top: 90px;
+    margin-top: 75px;
     text-align: center;
     color: #343a40;
 }
@@ -211,6 +211,11 @@ footer {
     width: 100%;
 }
 
+.about-block {
+    background-color: #343a40;
+    color: #fffff2;
+}
+
 .js-image {
     width: 100%;
     border-radius: 30%;
@@ -222,9 +227,7 @@ footer {
 }
 
 .pi-section {
-    margin-top: 20px;
-    background-color: #343a40;
-    color: #fffff2;
+    margin-top: 10px;
     border-radius: 50px;
     padding: 25px;
     display: flex;
@@ -256,6 +259,23 @@ table tr td {
     font-weight: 400;
 }
 
+.nyk-block {
+    border-radius: 50px;
+    margin-top: 30px;
+    padding: 10px 30px;
+}
+
+.nyk-block p {
+    letter-spacing: 0.15rem;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.nyk-block p span {
+    color: #45bec4;
+    font-weight: 700;
+}
+
 .section-break {
     border-top: 2px #343a40 dotted;
     width: 5%;
@@ -269,8 +289,6 @@ table tr td {
 .ex-ed-block {
     text-align: center;
     min-height: 500px;
-    background-color: #343a40;
-    color: #fffff2;
     padding-bottom: 50px;
 }
 
@@ -386,6 +404,12 @@ table tr td {
     .pi-section {
         border-radius: 0;
         min-height: 400px;
+        margin-top: 50px;
+    }
+
+    .nyk-block {
+        border-radius: 0;
+        margin-top: 0;
     }
 
     .section-break {
@@ -393,11 +417,11 @@ table tr td {
     }
 
     .skills-block {
-        min-height: 200px;
+        min-height: 300px;
     }
 
     .ex-ed-block {
-        padding-bottom: 25%;
+        padding-bottom: 15%;
     }
 
     .ex-section {
