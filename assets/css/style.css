@@ -156,6 +156,16 @@ footer {
     text-align: center;
 }
 
+.intro-section h5 {
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+    font-weight: 700;
+    color: #45bec4;
+}
+
 .cta-btns {
     text-align: center;
     margin-bottom: 70px;
