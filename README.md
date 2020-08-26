@@ -4,9 +4,9 @@
 
 This is my personal portfolio project. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential employers or clients.
 
-<h2 align="center"><img src="assets/images/personal-portfolio-mock.PNG"></h2>  
+<h2 align="center"><img src="assets/images/personal-portfolio-mock.png"></h2>  
 
-<h2 align="center"><img src="assets/images/personal-portfolio-scroll-mock.PNG"></h2>
+<h2 align="center"><img src="assets/images/personal-portfolio-scroll-mock.png"></h2>
 
 ## User Experience (UX)
 ---
