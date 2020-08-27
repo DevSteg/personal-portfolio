@@ -27,17 +27,22 @@ This is my personal portfolio project. It is designed to be responsive and acces
 - ### Design
 
     * #### Colour Scheme
-        The main colours used through the website are black, blue and an off-white for the background.
+        The main colours used through the website are black (#343a40), blue (#45bec4) and an off-white (#fffff2) for the background.
     * #### Typography
         The two fonts used in this project are *Nunito* and *Oleo script swash caps*. 
         The *Nunito* font is used for the main bulk of typography, with *Oleo script swash caps* being used on titles and on the landing page.
     * #### Landing Hello
-        The first page to the portfolio is the landing hello title. Which is used to grab attention but also create the feeling of conversation.
+        The first page to the portfolio is the landing hello title. Which is used to grab attention but also create the feeling of conversation, 
+        from there they are directed down to the introduction section which continues the feeling of converstaion and reveals the navigations links around the site.
     * #### Imagery
         Logo created on Affinity designer is on the landing page and across the site in the navbar. 
         An Image of the developer is also used on About Me to allow the user to put a face to the name.
+    * #### Navigation
+        The top nav bar is fixed in place to allow for quick access to the navigation links wherever the user is on the page.
     * #### Projects
         The projects page currently has existing websites that were not created by myself, they will be replaced once I have the projects to replace them with.
+    * #### About Me
+        I decided to add the "now you know" section towards the end of the development process as to allow the user to get me abit more.
 
 - ### Wireframes
 
@@ -47,6 +52,8 @@ This is my personal portfolio project. It is designed to be responsive and acces
     
 ## Features
 ---
+- Consistent Navigation bar and footer across the site.
+
 - Responsive on all device sizes.
 
 - Interactive Elements.
@@ -133,6 +140,10 @@ This is my personal portfolio project. It is designed to be responsive and acces
         * Samsung Note 20
 
 - ### Known Bugs
+    
+    * When the personal info section on the about me page switches to the mobile view, 
+    it was being prevented from spanning the full width of the page by the row and container fluid class brought over by bootstrap. 
+    This was fixed by setting the padding & margin left and right to 0 when the screen size reaches 1024px. (Solution found on Stack Overflow)
 
 ## Deployment
 ---
@@ -142,6 +153,9 @@ This is my personal portfolio project. It is designed to be responsive and acces
 
 - [W3Schools](https://www.w3schools.com/)
 - [Stack Overflow](https://stackoverflow.com/)
+- [Bootstrap v4.5.0:](https://getbootstrap.com/)
+    * Bootstrap was used throughout the website.
+    The nav bar, footer and progress bars code all came from bootstrap but were modified to meet the developers needs.
 - [Pixeden:](https://www.pixeden.com/)
     * Pixeden.com was used to download the PNG file for the mock images used on the projects page as well as this README.md.
 - [GoodReads](https://www.goodreads.com/quotes/646569-find-a-job-you-enjoy-doing-and-you-will-never)
