@@ -1,6 +1,6 @@
 <h1 align="center"> Personal Portfolio for James Stephens </h1>
 
-[View the live project here]()
+[View the live project here](https://devsteg.github.io/personal-portfolio/)
 
 This is my personal portfolio project. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential employers or clients.
 
@@ -147,6 +147,14 @@ This is my personal portfolio project. It is designed to be responsive and acces
 
 ## Deployment
 ---
+
+- The project was deployed on github pages using the following steps
+    * Login to Github
+    * Locate the [Github Repository](https://github.com/DevSteg/personal-portfolio)
+    * Click on the "settings" link in the top right corner of the repository
+    * Scroll down the settings page until github pages section
+    * Click the dropdown box in the "source" section and select the "master branch"
+    * Scroll back down the page after it refreshes to the now published site link in the "GitHub Pages" section.
 
 ## Credits
 ---
