@@ -151,9 +151,9 @@ This is my personal portfolio project. It is designed to be responsive and acces
 - The project was deployed on github pages using the following steps
     * Login to Github
     * Locate the [Github Repository](https://github.com/DevSteg/personal-portfolio)
-    * Click on the "settings" link in the top right corner of the repository
-    * Scroll down the settings page until github pages section
-    * Click the dropdown box in the "source" section and select the "master branch"
+    * Click on the "Settings" link in the top right corner of the repository
+    * Scroll down the settings page until "Github Pages" section
+    * Click the dropdown box in the "Source" section and select the "Master Branch"
     * Scroll back down the page after it refreshes to the now published site link in the "GitHub Pages" section.
 
 ## Credits
