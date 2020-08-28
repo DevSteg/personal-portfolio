@@ -86,7 +86,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
 ---
 -   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project.
 
-    * [W3C CSS Validator](http://jigsaw.w3.org/css-validator/check/referer)
+    * [W3C CSS Validator]()
 
     
 

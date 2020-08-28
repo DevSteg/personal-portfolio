@@ -217,8 +217,8 @@ footer {
 }
 
 .js-image {
-    width: 100%;
-    border-radius: 30%;
+    width: 83%;
+    border-radius: 50%;
 }
 
 .pi-img-block {
@@ -392,6 +392,8 @@ table tr td {
         padding-bottom: 10%;
     }
 
+
+
     /* ------------------about.html */
 
     .about-1024, .about-1024 .row, .pi-1024 {
@@ -399,6 +401,10 @@ table tr td {
         padding-right: 0;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .js-image {
+        width: 55%;
     }
 
     .pi-section {
@@ -459,5 +465,10 @@ table tr td {
 
     .ex-section table tbody td, .ed-section table tbody td {
         padding-top: 5%;
+    }
+
+    .js-image {
+        width: 70%;
+        margin-top: 40px;
     }
 }
