@@ -405,7 +405,7 @@ table tr td {
     }
 
     .js-image {
-        width: 80%;
+        width: 90%;
         height: 80%;
         margin-top: 10%;
     }
@@ -468,5 +468,5 @@ table tr td {
     .ex-section table tbody td, .ed-section table tbody td {
         padding-top: 5%;
     }
-
+    
 }

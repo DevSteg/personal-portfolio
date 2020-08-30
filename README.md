@@ -172,3 +172,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
     * Pixeden.com was used to download the PNG file for the mock images used on the projects page as well as this README.md.
 - [GoodReads](https://www.goodreads.com/quotes/646569-find-a-job-you-enjoy-doing-and-you-will-never)
     * GoodReads.com was used for the quote from Mark Twain.
+
+## Acknowledgements
+---
+* My Mentor for helpfull feedback throughout the project and working calls around my cuurent work schedule.
