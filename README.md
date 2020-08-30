@@ -38,7 +38,8 @@ This is my personal portfolio project. It is designed to be responsive and acces
         Logo created on Affinity designer is on the landing page and across the site in the navbar. 
         An Image of the developer is also used on About Me to allow the user to put a face to the name.
     * #### Navigation
-        The top nav bar is fixed in place to allow for quick access to the navigation links wherever the user is on the page.
+        The top nav bar is fixed in place to allow for quick access to the navigation links wherever the user is on the page. 
+        The Navbar and footer are styled differently to the wireframes due to not needing the navigation links in the footer with the nav bar fixed to the top and for ease of use.
     * #### Projects
         The projects page currently has existing websites that were not created by myself, they will be replaced once I have the projects to replace them with.
     * #### About Me
@@ -87,6 +88,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
 -   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project.
 
     * [W3C CSS Validator]()
+    * [W3C Markup Validator]()
 
     
 
