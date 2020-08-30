@@ -175,4 +175,4 @@ This is my personal portfolio project. It is designed to be responsive and acces
 
 ## Acknowledgements
 ---
-* My Mentor for helpfull feedback throughout the project and working calls around my cuurent work schedule.
+* My Mentor for helpful feedback throughout the project and working calls around my current work schedule.
