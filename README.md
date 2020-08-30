@@ -87,8 +87,8 @@ This is my personal portfolio project. It is designed to be responsive and acces
 ---
 -   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project.
 
-    * [W3C CSS Validator](assets/testing/w3c-css-validator-results.html)
-    * [W3C Markup Validator]()
+    * [W3C CSS Validator Results](assets/testing/w3c-css-validator-results.html)
+    * [W3C Markup Validator Results]()
 
     
 
