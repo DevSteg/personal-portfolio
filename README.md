@@ -87,7 +87,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
 ---
 -   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project.
 
-    * [W3C CSS Validator]()
+    * [W3C CSS Validator](assets/testing/w3c-css-validator-results.html)
     * [W3C Markup Validator]()
 
     
@@ -139,7 +139,9 @@ This is my personal portfolio project. It is designed to be responsive and acces
         * Iphone 6/7/8 plus (Chrome Dev tools)
         * Iphone X (Chrome Dev Tools)
         * Ipad Pro (Chrome Dev tools)
-        * Samsung Note 20
+        * Samsung Note 20 Ultra 5G
+
+    * My partner also tested the full site using Safari on her Macbook pro.
 
 - ### Known Bugs
     
