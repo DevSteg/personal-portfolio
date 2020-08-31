@@ -78,11 +78,12 @@ This is my personal portfolio project. It is designed to be responsive and acces
         * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
     6. [GitHub:](https://github.com/)
         * GitHub was used to store the projects code after being pushed from Git.
-    8. [Affinity Designer:](https://affinity.serif.com/en-gb/designer/)
+    7. [Affinity Designer:](https://affinity.serif.com/en-gb/designer/)
         * Affinity Designer was used to create the mock images, and the logo.
-    9. [Balsamiq:](https://balsamiq.com/)
+    8. [Balsamiq:](https://balsamiq.com/)
         * Balsamiq was used to create the [wireframes](assets/wireframes/personal_portfolio_wireframes.pdf) during the design process.
-
+    9. [Favicon.io](https://favicon.io/favicon-converter/)
+        * Favicon.io was used to generate the favicon for the website. The links for the favicon were also copied from favicon.io.
 ## Testing
 ---
 -   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project.
