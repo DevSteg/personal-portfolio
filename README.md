@@ -83,7 +83,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
     8. [Balsamiq:](https://balsamiq.com/)
         * Balsamiq was used to create the [wireframes](assets/wireframes/personal_portfolio_wireframes.pdf) during the design process.
     9. [Favicon.io](https://favicon.io/favicon-converter/)
-        * Favicon.io was used to generate the favicon for the website. The links for the favicon were also copied from favicon.io.
+        * Favicon.io was used to convert the js-logo to a favicon for the website. The links for the favicon were also copied from favicon.io.
 ## Testing
 ---
 -   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project.
@@ -133,6 +133,13 @@ This is my personal portfolio project. It is designed to be responsive and acces
     * Form testing, test submitted the form to test that all the fields require the correct information. 
     By doing this I realised that the *value* attribute in the input tag should of been *placeholder*.
 
+    * When the personal info section on the about me page switches to the mobile view, 
+    it was being prevented from spanning the full width of the page by the row and container fluid class brought over by bootstrap. 
+    This was fixed by setting the padding & margin left and right to 0 when the screen size reaches 1024px. (Solution found on Stack Overflow)
+    
+    * While testing the navbar hamburger toggler in mobile view I found the links were appearing the right of the button, I found this was caused by some CSS written which was deleted. 
+    When the code was deleted the nav links would then push the js-logo image down underneath the links, to solve this I refactored the navbar html code so the logo appears to the left of the nav links.
+
     - #### Device/Browser Testing
         * Chrome
         * Firefox
@@ -145,10 +152,6 @@ This is my personal portfolio project. It is designed to be responsive and acces
     * My partner also tested the full site using Safari on her Macbook pro.
 
 - ### Known Bugs
-    
-    * When the personal info section on the about me page switches to the mobile view, 
-    it was being prevented from spanning the full width of the page by the row and container fluid class brought over by bootstrap. 
-    This was fixed by setting the padding & margin left and right to 0 when the screen size reaches 1024px. (Solution found on Stack Overflow)
 
 ## Deployment
 ---

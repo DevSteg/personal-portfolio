@@ -69,14 +69,13 @@ hr {
 
 /* ----------------------------------------------Navbar & Footer*/
 
-.navbar-collapse {
-    flex-basis: 5%;
-    padding-left: 2%;
-}
-
 .js-logo-sm {
     height: 50px;
     border-radius: 50%;
+}
+
+.navbar-nav {
+    margin-left: auto;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -90,13 +89,14 @@ hr {
 .social-links-foot {
     margin: 0 auto;
 }
-
+/* ---------------- Code Pulled from Stack-overflow */
 footer {
     position: absolute;
     width: 100%;
     bottom: 0;
     height: 60px;
 }
+/* ---------------- Code Pulled from Stack-overflow */
 
 /* ----------------------------------------------index.html */
 
