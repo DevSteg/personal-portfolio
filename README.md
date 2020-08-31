@@ -39,6 +39,8 @@ This is my personal portfolio project. It is designed to be responsive and acces
     * #### Navigation
         The top nav bar is fixed in place to allow for quick access to the navigation links wherever the user is on the page. 
         The Navbar and footer are styled differently to the wireframes due to not needing the navigation links in the footer with the nav bar fixed to the top and for ease of use.
+        While developing the project I found the footer would not sit at the bottom of the viewport when the page content didn't fill the page, 
+        the solution for this was found [here](https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b) on Stack Overflow.
     * #### Projects
         The projects page currently has existing websites that were not created by myself, they will be replaced once I have the projects to replace them with.
     * #### About Me
@@ -133,7 +135,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
 
     * When the personal info section on the about me page switches to the mobile view, 
     it was being prevented from spanning the full width of the page by the row and container fluid class brought over by bootstrap. 
-    This was fixed by setting the padding & margin left and right to 0 when the screen size reaches 1024px. (Solution found on Stack Overflow)
+    This was fixed by setting the padding & margin left and right to 0 when the screen size reaches 1024px. The inspiration (along with some trial and error) for the solution was found [here](https://github.com/twbs/bootstrap/issues/18207) on Github.
     
     * While testing the navbar hamburger toggler in mobile view I found the links were appearing the right of the button, I found this was caused by some CSS written which was deleted. 
     When the code was deleted the nav links would then push the js-logo image down underneath the links, to solve this I refactored the navbar html code so the logo appears to the left of the nav links.
@@ -163,6 +165,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
 
 - [W3Schools](https://www.w3schools.com/)
 - [Stack Overflow](https://stackoverflow.com/)
+- [Github](https://https://github.com/)
 - [Bootstrap v4.5.0:](https://getbootstrap.com/)
     * Bootstrap was used throughout the website.
     The nav bar, footer and progress bars code all came from bootstrap but were modified to meet the developers needs.
