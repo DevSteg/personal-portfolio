@@ -9,7 +9,6 @@ This is my personal portfolio project. It is designed to be responsive and acces
 <h2 align="center"><img src="assets/images/personal-portfolio-scroll-mock.png"></h2>
 
 ## User Experience (UX)
----
 
 -   ### User Stories
 
@@ -52,7 +51,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
     * [Mobile Wireframes for the project are here](assets/wireframes/personal_portfolio_wireframes_mobile.pdf)
     
 ## Features
----
+
 - Consistent Navigation bar and footer across the site.
 
 - Responsive on all device sizes.
@@ -60,7 +59,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
 - Interactive Elements.
 
 ## Technologies Used
----
+
 - ### Languages Used
     * [HTML5](https://en.wikipedia.org/wiki/HTML5)
     * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -84,14 +83,13 @@ This is my personal portfolio project. It is designed to be responsive and acces
         * Balsamiq was used to create the [wireframes](assets/wireframes/personal_portfolio_wireframes.pdf) during the design process.
     9. [Favicon.io](https://favicon.io/favicon-converter/)
         * Favicon.io was used to convert the js-logo to a favicon for the website. The links for the favicon were also copied from favicon.io.
+
 ## Testing
----
+
 -   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project.
 
     * [W3C CSS Validator Results](assets/testing/w3c-css-validator-results.png)
     * [W3C Markup Validator Results](assets/testing/w3c-markup-validator-results.png)
-
-    
 
 - ### Testing User Stories from User Experience (UX) Section
 
@@ -151,10 +149,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
 
     * My partner also tested the full site using Safari on her Macbook pro.
 
-- ### Known Bugs
-
 ## Deployment
----
 
 - The project was deployed on github pages using the following steps
     * Login to Github
@@ -165,7 +160,6 @@ This is my personal portfolio project. It is designed to be responsive and acces
     * Scroll back down the page after it refreshes to the now published site link in the "GitHub Pages" section.
 
 ## Credits
----
 
 - [W3Schools](https://www.w3schools.com/)
 - [Stack Overflow](https://stackoverflow.com/)
@@ -178,5 +172,5 @@ This is my personal portfolio project. It is designed to be responsive and acces
     * GoodReads.com was used for the quote from Mark Twain.
 
 ## Acknowledgements
----
+
 * My Mentor for helpful feedback throughout the project and working calls around my current work schedule.
