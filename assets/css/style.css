@@ -379,6 +379,11 @@ table tr td {
     list-style: none;
 }
 
+.project-info p {
+    letter-spacing: 0.10rem;
+    font-size: 1.1rem;
+}
+
 /* ----------------------------------------------Media Queries*/
 
 @media screen and (max-width: 1024px) {
