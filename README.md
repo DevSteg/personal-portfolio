@@ -151,6 +151,10 @@ This is my personal portfolio project. It is designed to be responsive and acces
 
     * My partner also tested the full site using Safari on her Macbook pro.
 
+## Known Bugs
+
+- When loading the web page there is flash of unstyled text (FOUT) while the site loads the font style from google fonts.
+
 ## Deployment
 
 - The project was deployed on github pages using the following steps

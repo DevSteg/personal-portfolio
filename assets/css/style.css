@@ -336,7 +336,7 @@ table tr td {
 /* ----------------------------------------------projects.html */
 
 .projects-section {
-    margin-top: 4%;
+    margin: 4% 0;
 }
 
 .mock-img {
@@ -380,7 +380,6 @@ table tr td {
 }
 
 .project-info p {
-    letter-spacing: 0.10rem;
     font-size: 1.1rem;
 }
 
@@ -400,7 +399,7 @@ table tr td {
 
     /* ------------------about.html */
 
-    .about-1024, .about-1024 .row, .pi-1024 {
+    .cf-1024, .cf-1024 .row {
         padding-left: 0;
         padding-right: 0;
         margin-left: 0;
