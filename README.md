@@ -56,6 +56,8 @@ This is my personal portfolio project. It is designed to be responsive and acces
 
 - Consistent Navigation bar and footer across the site.
 
+- Animated Skills prpgress bars. (achieved using bootstrap)
+
 - Responsive on all device sizes.
 
 - Interactive Elements.
