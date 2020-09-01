@@ -35,7 +35,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
         from there they are directed down to the introduction section which continues the feeling of converstaion and reveals the navigations links around the site.
     * #### Imagery
         Logo created on Affinity designer is on the landing page and across the site in the navbar. 
-        An Image of the developer is also used on About Me to allow the user to put a face to the name.
+        An image of the developer is also used on "About Me" to allow the user to put a face to the name.
     * #### Navigation
         The top nav bar is fixed in place to allow for quick access to the navigation links wherever the user is on the page. 
         The Navbar and footer are styled differently to the wireframes due to not needing the navigation links in the footer with the nav bar fixed to the top and for ease of use.
@@ -44,7 +44,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
     * #### Projects
         The projects page currently has existing websites that were not created by myself, they will be replaced once I have the projects to replace them with.
     * #### About Me
-        I decided to add the "now you know" section towards the end of the development process as to allow the user to get me abit more.
+        I decided to add the "now you know" section towards the end of the development process as to allow the user to get to know the developer more.
 
 - ### Wireframes
 
@@ -80,11 +80,11 @@ This is my personal portfolio project. It is designed to be responsive and acces
     6. [GitHub:](https://github.com/)
         * GitHub was used to store the projects code after being pushed from Git.
     7. [Affinity Designer:](https://affinity.serif.com/en-gb/designer/)
-        * Affinity Designer was used to create the mock images, and the logo.
+        * Affinity Designer was used to create the mock-up images, and the logo.
     8. [Balsamiq:](https://balsamiq.com/)
         * Balsamiq was used to create the [wireframes](assets/wireframes/personal_portfolio_wireframes.pdf) during the design process.
     9. [Favicon.io](https://favicon.io/favicon-converter/)
-        * Favicon.io was used to convert the js-logo to a favicon for the website. The links for the favicon were also copied from favicon.io.
+        * Favicon.io was used to convert the site logo to a favicon for the website. The links for the favicon were also copied from favicon.io.
 
 ## Testing
 
@@ -123,7 +123,7 @@ This is my personal portfolio project. It is designed to be responsive and acces
               Once on the contact page, the user will see the contact form which is where the user can input their name, email address and there is a text-area to explain their project idea.
 
         3. As a Potential Client, I want to be drawn in to the website, understand the layout and overall be sure that the developer can complete my project to a high standard.
-            * The user is greeted with a big Hello! on the landing page, grabbing attention and creating the feeling of conversation. 
+            * The user is greeted with a big "Hello!" on the landing page, grabbing attention and creating the feeling of conversation. 
             * The website is clean and responsive, with a simple understandable layout.
     
 - ### Further Testings
