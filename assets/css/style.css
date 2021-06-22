@@ -321,7 +321,13 @@ table tr td {
 
 .progress {
     height: 20px;
-    margin-top: 2.5px;
+    width: 70%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.bg-progress {
+    background-color: #42a3af;
 }
 
 .progress-bar {
@@ -407,9 +413,14 @@ table tr td {
     }
 
     .js-image {
-        width: 90%;
-        height: 80%;
+        width: 50%;
+        height: 70%;
         margin-top: 10%;
+    }
+
+    .img-1024 {
+        padding: 0 !important;
+        height: 400px;
     }
 
     .pi-section {
